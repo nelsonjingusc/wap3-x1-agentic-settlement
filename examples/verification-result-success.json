@@ -1,0 +1,8 @@
+{
+  "deal_id": "1",
+  "verifier": "0xVerifierAddressOnX1",
+  "success": true,
+  "proof_uri": "walrus://proofs/x1-demo/deal-1-summary-v1",
+  "reason": "The transcript is accurate and the summary captures all required action items.",
+  "score": 0.97
+}

@@ -1,0 +1,8 @@
+{
+  "deal_id": "1",
+  "verifier": "0xVerifierAddressOnX1",
+  "success": false,
+  "proof_uri": "walrus://proofs/x1-demo/deal-1-evaluation-v1",
+  "reason": "The submitted transcript does not match the audio content. Key segments were missing or incorrect.",
+  "score": 0.21
+}
