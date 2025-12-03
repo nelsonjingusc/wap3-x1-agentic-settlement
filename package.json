@@ -1,0 +1,19 @@
+{
+  "name": "wap3-x1-agentic-settlement",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "demo:local": "hardhat run scripts/demoAgentFlow.ts",
+    "demo:x1": "hardhat run scripts/demoAgentFlow.ts --network x1testnet",
+    "deploy:x1": "hardhat run scripts/deploy.ts --network x1testnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.0",
+    "hardhat": "^2.22.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.5.0"
+  }
+}
