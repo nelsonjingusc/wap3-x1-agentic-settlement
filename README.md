@@ -45,6 +45,17 @@ This shows how AI agents and DePIN devices can:
 - **[docs/roadmap.md](docs/roadmap.md)**
   Development roadmap and future milestones.
 
+## Examples
+
+The **[examples/](examples/)** directory contains:
+
+- **[escrow-intent.json](examples/escrow-intent.json)** – Sample escrow intent payload
+- **[verification-result-success.json](examples/verification-result-success.json)** – Successful verification
+- **[verification-result-failure.json](examples/verification-result-failure.json)** – Failed verification
+- **[agent-flow.md](examples/agent-flow.md)** – Complete workflow walkthrough
+
+These show how to structure payloads and integrate with the escrow contract.
+
 ## X1 Setup
 
 Works with X1 testnet:
@@ -132,7 +143,13 @@ wap3-x1-agentic-settlement/
 │   ├── architecture.md
 │   ├── workflows.md
 │   ├── api-schema.md
-│   └── x1-notes.md
+│   ├── x1-notes.md
+│   └── roadmap.md
+├── examples/
+│   ├── escrow-intent.json
+│   ├── verification-result-success.json
+│   ├── verification-result-failure.json
+│   └── agent-flow.md
 ├── .env.example
 ├── .gitignore
 ├── hardhat.config.ts
