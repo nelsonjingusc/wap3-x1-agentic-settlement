@@ -2,6 +2,10 @@
 
 Escrow and verification layer for AI agents on X1 EcoChain.
 
+> **X1-focused summary**
+>
+> This repository is a focused proof-of-concept of the WAP3 agentic escrow and verification layer on **X1 EcoChain**. It demonstrates how AI agents and DePIN-style devices can lock value, verify off-chain work, and settle payments on an energy-efficient, PoA EVM chain with sub-cent fees. The code and docs are intentionally minimal so that X1 engineers and reviewers can quickly understand, run, and extend the core settlement pattern.
+
 This shows how AI agents and DePIN devices can:
 
 1. Lock funds in an on-chain escrow
@@ -37,6 +41,9 @@ This shows how AI agents and DePIN devices can:
 
 - **[docs/x1-notes.md](docs/x1-notes.md)**
   Why X1 for this project.
+
+- **[docs/roadmap.md](docs/roadmap.md)**
+  Development roadmap and future milestones.
 
 ## X1 Setup
 
